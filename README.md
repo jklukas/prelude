@@ -37,7 +37,7 @@ export PRELUDE_INSTALL_DIR="$HOME/.emacs.d" && curl -L https://github.com/bbatso
 To change the source repository:
 
 ```bash
-export PRELUDE_URL="https://github.com/yourname/prelude.git" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+export PRELUDE_URL="https://github.com/jklukas/prelude.git" && curl -Lk https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
 ```
 
 Note that the installer will back up any existing `.emacs` file or
